@@ -1,7 +1,5 @@
 import java.util.Arrays;
-
 public class OperacionesArreglos {
-
     /*
      * Método para llenar el arreglo con números enteros y retornarlo
      */
