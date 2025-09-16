@@ -10,7 +10,7 @@ public class Pila {
         //verificar si la fila esta vacia
         System.out.println(pila.empty());
 
-        
+
         // insertar elementos en la pila
         pila.push(8);
         pila.push(4);
@@ -37,5 +37,15 @@ public class Pila {
         System.out.println(pila.search(8));
         System.out.println(pila.search(50));
 
+        //Metodo para validar si los parentesis estan completos o equilibrados
+
+        String[] signos = {"(","("};
+
+        Stack<String> pila2 = new Stack<>();
+
+        /*
+        *   Implementar todos los métodos de la clase Vector
+        https://docs.oracle.com/javase/8/docs/api/java/util/Stack.html
+        */  
     }
 }
